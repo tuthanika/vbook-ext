@@ -1,7 +1,7 @@
 {
   "metadata": {
     "author": "tuthanika",
-    "description": "rauden"
+    "description": ""
   },
   "data": [
     {
@@ -14,6 +14,6 @@
 		"description": "Đọc truyện trên trang https://tuansaker.pp.ua",
 		"locale": "zh_CN",
 		"type": "chinese_novel"
-	},
+	}
   ]
 }
