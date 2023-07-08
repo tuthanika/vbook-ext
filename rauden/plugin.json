@@ -3,9 +3,9 @@
     "name": "Râu Đen",
     "author": "dat-bi",
     "version": 7,
-    "source": "https://tuansaker.pp.ua/",
-    "regexp": "tuansaker.pp.ua/site/.*?/.*?",
-    "description": "Đọc truyện trên trang https://tuansaker.pp.ua",
+    "source": "https://rauden.xyz.wf/",
+    "regexp": "rauden.xyz.wf/site/.*?/.*?",
+    "description": "Đọc truyện trên trang https://rauden.xyz.wf",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

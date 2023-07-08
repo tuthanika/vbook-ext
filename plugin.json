@@ -9,9 +9,9 @@
 		"author": "dat-bi",
 		"path": "https://raw.githubusercontent.com/tuthanika/vbook-ext/main/rauden/plugin.zip",
 		"version": 7,
-		"source": "https://tuansaker.pp.ua/",
+		"source": "https://rauden.xyz.wf/",
 		"icon": "https://raw.githubusercontent.com/tuthanika/vbook-ext/main/rauden/icon.png",
-		"description": "Đọc truyện trên trang https://tuansaker.pp.ua",
+		"description": "Đọc truyện trên trang https://rauden.xyz.wf",
 		"locale": "zh_CN",
 		"type": "chinese_novel"
 	}

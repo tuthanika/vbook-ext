@@ -7,7 +7,7 @@ function execute(key, page) {
         z += 4;
     }
     for (i; i < z; i++) {
-        let url = "https://tuansaker.pp.ua/search.php?q=" + key + "&cweb=" + site[i]
+        let url = "https://rauden.xyz.wf/search.php?q=" + key + "&cweb=" + site[i]
         let response = fetch(url)
         if (response.ok) {
             let doc = response.html();
@@ -20,9 +20,9 @@ function execute(key, page) {
                 var e = el.get(j);
                 data.push({
                     name: site[i] + "-" + e.select('a').first().attr("title"),
-                    link: "https://tuansaker.pp.ua" + e.select('a').first().attr("href"),
+                    link: "https://rauden.xyz.wf" + e.select('a').first().attr("href"),
                     cover: e.select("img").attr("data-src"),
-                    host: "https://tuansaker.pp.ua"
+                    host: "https://rauden.xyz.wf"
                 });
             }
         }
