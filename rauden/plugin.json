@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Râu Đen",
     "author": "dat-bi",
-    "version": 7,
+    "version": 8,
     "source": "https://rauden.xyz.wf/",
     "regexp": "rauden.xyz.wf/site/.*?/.*?",
     "description": "Đọc truyện trên trang https://rauden.xyz.wf",
