@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "author": "tuthanika",
+    "description": "🧐"
+  },
+  "data": [
+    {
+		"name": "Râu Đen",
+		"author": "dat-bi",
+		"path": "https://raw.githubusercontent.com/tuthanika/vbook-ext/main/rauden/plugin.zip",
+		"version": 7,
+		"source": "https://tuansaker.pp.ua/",
+		"icon": "https://raw.githubusercontent.com/tuthanika/vbook-ext/main/rauden/icon.png",
+		"description": "Đọc truyện trên trang https://tuansaker.pp.ua",
+		"locale": "zh_CN",
+		"type": "chinese_novel"
+	},
+  ]
+}
