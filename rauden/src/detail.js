@@ -5,7 +5,7 @@ function execute(url) {
     let a = url.split(/[/ ]+/)
     let book_id = a.pop();
     let site = a.pop();
-    url = "https://rauden.xyz.wf/api/" + site + "/detail.php?q=" + book_id;
+    url = "https://shop.vietstarhp.com/api/" + site + "/detail.php?q=" + book_id;
     let response = fetch(url)
     if (response.ok) {
         let text_encrypt = response.json();
@@ -24,7 +24,7 @@ function execute(url) {
             author: book_info.author_name,
             description: book_info.description.replace(/\r\n/g, "<br>"),
             detail: book_info.detail,
-            host: "https://rauden.xyz.wf",
+            host: "https://shop.vietstarhp.com",
             type: type
         });
     }

@@ -3,9 +3,9 @@
     "name": "Râu Đen",
     "author": "dat-bi",
     "version": 8,
-    "source": "https://rauden.xyz.wf/",
-    "regexp": "rauden.xyz.wf/site/.*?/.*?",
-    "description": "Đọc truyện trên trang https://rauden.xyz.wf",
+    "source": "https://shop.vietstarhp.com/",
+    "regexp": "shop.vietstarhp.com/site/.*?/.*?",
+    "description": "Đọc truyện trên trang https://shop.vietstarhp.com",
     "locale": "zh_CN",
     "language": "javascript",
     "type": "chinese_novel"

@@ -6,7 +6,7 @@ function execute(url) {
     let a = url.split(/[/ ]+/)
     let book_id = a.pop();
     let site = a.pop();
-    let url_division = "https://rauden.xyz.wf/api/" + site + "/catalog.php?q=" + book_id;
+    let url_division = "https://shop.vietstarhp.com/api/" + site + "/catalog.php?q=" + book_id;
     let response_chapter_list = fetch(url_division)
     if (response_chapter_list.ok) {
         let text_encrypt = response_chapter_list.json();
@@ -15,8 +15,8 @@ function execute(url) {
             let name = e.name;
             data.push({
                 name: name,
-                url: "https://rauden.xyz.wf/site/" + site + "/" + book_id + "/" + e.url,
-                host: "https://rauden.xyz.wf"
+                url: "https://shop.vietstarhp.com/site/" + site + "/" + book_id + "/" + e.url,
+                host: "https://shop.vietstarhp.com"
             })
         });
         return Response.success(data)
