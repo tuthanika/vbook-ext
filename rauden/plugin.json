@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Râu Đen",
     "author": "dat-bi",
-    "version": 8,
+    "version": 9,
     "source": "https://shop.vietstarhp.com/",
     "regexp": "shop.vietstarhp.com/site/.*?/.*?",
     "description": "Đọc truyện trên trang https://shop.vietstarhp.com",
